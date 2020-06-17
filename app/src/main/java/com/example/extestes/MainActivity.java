@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         Toast.makeText(getApplicationContext(), "oi", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "alterado git", Toast.LENGTH_LONG).show();
         retiraFoto();
 
     }
