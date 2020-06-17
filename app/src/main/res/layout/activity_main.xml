@@ -31,4 +31,15 @@
 
         android:text="Tirar Foto" />
 
+    <SeekBar
+
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="90"
+        android:rotationY="180"
+        android:scrollbarStyle="insideInset"
+        android:verticalScrollbarPosition="left" />
+
 </LinearLayout>
